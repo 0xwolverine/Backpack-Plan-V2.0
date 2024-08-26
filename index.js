@@ -6,8 +6,31 @@ const input = require("@inquirer/input");
 const number = require("@inquirer/number");
 const fs = require("fs");
 const moment = require("moment");
+const { exec } = require('child_process');
+const util = require('util');
+const execPromise = util.promisify(exec);
 require("dotenv").config();
 const STATE_FILE = 'trading_state.json';
+
+/**
+ * 运行 gettoken.js 脚本更新 tokenlist.json
+ * @returns {Promise<void>}
+ */
+async function updateTokenList() {
+    try {
+        console.log('正在更新 tokenlist.json ...');
+        const { stdout, stderr } = await execPromise('node gettoken.js');
+        if (stderr) {
+            console.error('更新 tokenlist.json 时出错:', stderr);
+        } else {
+            console.log('tokenlist.json 更新成功');
+            console.log(stdout);
+        }
+    } catch (error) {
+        console.error('运行 gettoken.js 时出错:', error);
+        throw error;
+    }
+}
 
 /**
  * 异步读取并解析 JSON 文件
@@ -364,8 +387,12 @@ const buyfun = async (client, token, money, tokensDecimal) => {
 
 loadState();
 resetDailyCounterIfNeeded();
+
 (async () => {
   try {
+    // 首先更新 tokenlist.json
+    await updateTokenList();  
+      
     // 加载 tokenList
     const tokenList = await loadTokenList();
 
