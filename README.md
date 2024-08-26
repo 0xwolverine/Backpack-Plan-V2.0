@@ -9,7 +9,7 @@
  先运行 chmod +x setup.sh
  再运行 ./setup.sh
  
- 先用我的邀请码注册backpack交易所：https://backpack.exchange/signup?referral=0xwolverine
+ 先用我的邀请码注册backpack交易所(https://backpack.exchange/refer/0xwolverine)
   没node的安装一下 这是教程：https://www.runoob.com/nodejs/nodejs-install-setup.html
 
  backpack 刷交易量 JavaScript 只刷sol/usdc
