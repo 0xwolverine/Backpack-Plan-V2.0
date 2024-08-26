@@ -1,0 +1,260 @@
+{
+  "message": "\n    选择刷量的币种，会随机刷选择的代币。\n  ！确保backpack有大于5USDC数量。\n  ！确保选择的币种backpack有一定余额数量，否则会报错。\n  ！如果刷sol，请确保backpack有一定数量的sol，其他代币同理。\n  《按键盘空格是选择，回车是确认》\n    ",
+  "choices": [
+    {
+      "name": "HABIBI_USDC",
+      "value": "HABIBI_USDC",
+      "description": "HABIBI_USDC"
+    },
+    {
+      "name": "RENDER_USDC",
+      "value": "RENDER_USDC",
+      "description": "RENDER_USDC"
+    },
+    {
+      "name": "ZRO_USDC",
+      "value": "ZRO_USDC",
+      "description": "ZRO_USDC"
+    },
+    {
+      "name": "DRIFT_USDC",
+      "value": "DRIFT_USDC",
+      "description": "DRIFT_USDC"
+    },
+    {
+      "name": "KMNO_USDC",
+      "value": "KMNO_USDC",
+      "description": "KMNO_USDC"
+    },
+    {
+      "name": "ZEX_USDC",
+      "value": "ZEX_USDC",
+      "description": "ZEX_USDC"
+    },
+    {
+      "name": "PYTH_USDC",
+      "value": "PYTH_USDC",
+      "description": "PYTH_USDC"
+    },
+    {
+      "name": "GALA_USDC",
+      "value": "GALA_USDC",
+      "description": "GALA_USDC"
+    },
+    {
+      "name": "JUP_USDC",
+      "value": "JUP_USDC",
+      "description": "JUP_USDC"
+    },
+    {
+      "name": "IO_USDC",
+      "value": "IO_USDC",
+      "description": "IO_USDC"
+    },
+    {
+      "name": "AAVE_USDC",
+      "value": "AAVE_USDC",
+      "description": "AAVE_USDC"
+    },
+    {
+      "name": "ONDO_USDC",
+      "value": "ONDO_USDC",
+      "description": "ONDO_USDC"
+    },
+    {
+      "name": "MOTHER_USDC",
+      "value": "MOTHER_USDC",
+      "description": "MOTHER_USDC"
+    },
+    {
+      "name": "SHARK_USDC",
+      "value": "SHARK_USDC",
+      "description": "SHARK_USDC"
+    },
+    {
+      "name": "LDO_USDC",
+      "value": "LDO_USDC",
+      "description": "LDO_USDC"
+    },
+    {
+      "name": "BONK_USDC",
+      "value": "BONK_USDC",
+      "description": "BONK_USDC"
+    },
+    {
+      "name": "WEN_USDC",
+      "value": "WEN_USDC",
+      "description": "WEN_USDC"
+    },
+    {
+      "name": "LINK_USDC",
+      "value": "LINK_USDC",
+      "description": "LINK_USDC"
+    },
+    {
+      "name": "HNT_USDC",
+      "value": "HNT_USDC",
+      "description": "HNT_USDC"
+    },
+    {
+      "name": "MATIC_USDC",
+      "value": "MATIC_USDC",
+      "description": "MATIC_USDC"
+    },
+    {
+      "name": "USDT_USDC",
+      "value": "USDT_USDC",
+      "description": "USDT_USDC"
+    },
+    {
+      "name": "STRK_USDC",
+      "value": "STRK_USDC",
+      "description": "STRK_USDC"
+    },
+    {
+      "name": "MANEKI_USDC",
+      "value": "MANEKI_USDC",
+      "description": "MANEKI_USDC"
+    },
+    {
+      "name": "MON_USDC",
+      "value": "MON_USDC",
+      "description": "MON_USDC"
+    },
+    {
+      "name": "WIF_USDC",
+      "value": "WIF_USDC",
+      "description": "WIF_USDC"
+    },
+    {
+      "name": "MOBILE_USDC",
+      "value": "MOBILE_USDC",
+      "description": "MOBILE_USDC"
+    },
+    {
+      "name": "UNA_USDC",
+      "value": "UNA_USDC",
+      "description": "UNA_USDC"
+    },
+    {
+      "name": "BOME_USDC",
+      "value": "BOME_USDC",
+      "description": "BOME_USDC"
+    },
+    {
+      "name": "UNI_USDC",
+      "value": "UNI_USDC",
+      "description": "UNI_USDC"
+    },
+    {
+      "name": "PRCL_USDC",
+      "value": "PRCL_USDC",
+      "description": "PRCL_USDC"
+    },
+    {
+      "name": "HLG_USDC",
+      "value": "HLG_USDC",
+      "description": "HLG_USDC"
+    },
+    {
+      "name": "MAX_USDC",
+      "value": "MAX_USDC",
+      "description": "MAX_USDC"
+    },
+    {
+      "name": "FTM_USDC",
+      "value": "FTM_USDC",
+      "description": "FTM_USDC"
+    },
+    {
+      "name": "MEW_USDC",
+      "value": "MEW_USDC",
+      "description": "MEW_USDC"
+    },
+    {
+      "name": "CLOUD_USDC",
+      "value": "CLOUD_USDC",
+      "description": "CLOUD_USDC"
+    },
+    {
+      "name": "SHIB_USDC",
+      "value": "SHIB_USDC",
+      "description": "SHIB_USDC"
+    },
+    {
+      "name": "WLD_USDC",
+      "value": "WLD_USDC",
+      "description": "WLD_USDC"
+    },
+    {
+      "name": "RAY_USDC",
+      "value": "RAY_USDC",
+      "description": "RAY_USDC"
+    },
+    {
+      "name": "ZKJ_USDC",
+      "value": "ZKJ_USDC",
+      "description": "ZKJ_USDC"
+    },
+    {
+      "name": "BODEN_USDC",
+      "value": "BODEN_USDC",
+      "description": "BODEN_USDC"
+    },
+    {
+      "name": "JTO_USDC",
+      "value": "JTO_USDC",
+      "description": "JTO_USDC"
+    },
+    {
+      "name": "BTC_USDC",
+      "value": "BTC_USDC",
+      "description": "BTC_USDC"
+    },
+    {
+      "name": "SOL_USDC",
+      "value": "SOL_USDC",
+      "description": "SOL_USDC"
+    },
+    {
+      "name": "W_USDC",
+      "value": "W_USDC",
+      "description": "W_USDC"
+    },
+    {
+      "name": "HONEY_USDC",
+      "value": "HONEY_USDC",
+      "description": "HONEY_USDC"
+    },
+    {
+      "name": "ETH_USDC",
+      "value": "ETH_USDC",
+      "description": "ETH_USDC"
+    },
+    {
+      "name": "TNSR_USDC",
+      "value": "TNSR_USDC",
+      "description": "TNSR_USDC"
+    },
+    {
+      "name": "NYAN_USDC",
+      "value": "NYAN_USDC",
+      "description": "NYAN_USDC"
+    },
+    {
+      "name": "PEPE_USDC",
+      "value": "PEPE_USDC",
+      "description": "PEPE_USDC"
+    },
+    {
+      "name": "SHFL_USDC",
+      "value": "SHFL_USDC",
+      "description": "SHFL_USDC"
+    },
+    {
+      "name": "BLUR_USDC",
+      "value": "BLUR_USDC",
+      "description": "BLUR_USDC"
+    }
+  ]
+}
