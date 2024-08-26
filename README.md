@@ -1,7 +1,7 @@
 # 🎒 backpack_exchange Plan V2.0 🎒 #
 
 ### 🎒 1. 新增自动获取backpack*_USDC 交易对无需人工增加，所有交易对保存本地Tokenlist.json 文件中；
-
+       2. 新增主程序运行前先调用Gettoken.js文件对所有交易对进行更新；
 
  要用脚本请把本文档看完
  
